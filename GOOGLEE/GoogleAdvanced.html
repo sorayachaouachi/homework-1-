@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    </head>
+    <style>
+        #d1{
+            border-radius: 10px;
+            width: 300px;
+        }
+
+    </style>
+    <body>
+        <div align="right">
+            <form action="index.html">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+
+        <img src="google.gif" alt="googlegif" >
+
+        <!--<form action="https://google.com/search">
+            <input type="text" name="as_q">
+            <input type="submit" value="Google Advanced search">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_epq">
+            <input type="submit" value="Google Advanced search">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_oq">
+            <input type="submit" value="Google Advanced search">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_oq">
+            <input type="submit" value="Google Advanced search">
+        </form>-->
+        
+       
+        <form action="https://google.com/search">
+             <div class="search"> 
+                <label for="field2">Contain these words: </label>
+                <input type="text" name="as_q" id="d1">  
+            </div>
+            <br>
+              <div class="search">
+                <label for="field2">this exact word or phrase: </label>
+                <input type="text" name="as_epq" id="d1">
+            <br>
+             <div class="search">
+                <label for="field3">any of this words: </label>
+                <input type="text" name="as_oq" id="d1">
+            </div>
+            <br>
+             <div class="search">
+                <label for="field4">none of these words: </label>
+                <input type="text" name="as_eq" id="d1">
+            </div>
+            <br>
+              <div class="search">
+                <label for="field5">numbers ranging from: </label>
+                <input type="text" name="as_nlo" id="d1">
+                <span class="seperator">to</span>
+                <input type="text" name="as_nhi" id="d1">
+            </div>
+            <input style="background-color: blue;"type="submit" value="advanced search">
+        </form>
+    </body>
+</html>
